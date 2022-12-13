@@ -43,3 +43,16 @@ if (a == 5) {
 if (a == 5 && b == 6){
     console.log("a is 5 and b is 6");
 }
+var cupsOfFlour = 0;
+while (cupsOfFlour < 3) {   
+console.log(`Scooping a cup of flour into the bowl`);
+cupsOfFlour += 1;
+console.log(`There are ` + cupsOfFlour + ` cups of flour in the bowl`);
+}
+for (cupsOfFlour = 0; cupsOfFlour < 5; cupsOfFlour++) {
+    console.log(`Scooping a coup of flour into the bowl`);
+    console.log(`There are ` + cupsOfFlour + ` cups of flour in the bowl`);
+}
+for (var i = 1; i < 11; i++) {
+    console.log(i);
+}
