@@ -1,7 +1,7 @@
 var dozenEggs = 4
 if (dozenEggs < 1){
     console.log("let's buy 4 dozen then" );
-    else if (dozenEggs > 1 && < 2){
+} else if (dozenEggs > 1 && dozenEggs < 2){
         console.log("let's buy only 3 dozen");
     }
     else if (dozenEggs > 2 < 3){
@@ -11,4 +11,3 @@ if (dozenEggs < 1){
         console.log("let's not buy any today");
 
     }
-}
